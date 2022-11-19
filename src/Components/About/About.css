@@ -1,0 +1,159 @@
+.aboutheroimg {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(145deg, #d5d8da, #ffffff);
+    /* box-shadow: 4px 4px 8px  #cbcbcb, -4px -4px 8px  #ffffff; */
+    border-radius: 10px;
+    height: 450px;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+
+.aboutheroimg img {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 8px #ff014f, -4px -4px 8px #ff014f;
+    background-color: white;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 23%;
+    bottom: -20px;
+    height: 60px;
+
+}
+
+.icons a {
+    padding: 8px;
+    color: black;
+    font-size: 20px;
+}
+
+
+.abouttext {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20%
+}
+
+.abouttext h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 38px;
+    line-height: 50px;
+
+}
+
+.abouttext p {
+    margin-top: 25px;
+    font-size: 18;
+    color: #87909D;
+    animation: fadeInRight;
+    animation-duration: 4s;
+}
+
+.aboutbutton {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.aboutbutton .myprbtn {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 12px;
+    width: 132px;
+    height: 48px;
+    background-color: #ff014f;
+    color: #ffffff;
+    border-radius: 4px;
+
+ 
+}
+
+.aboutbutton .downcvbtn {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 12px;
+    width: 190px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #ff014f;
+    border-radius: 4px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #ff014f;
+}
+.downcvbtn:hover {
+    background: #ff014f;
+    color: white;
+}
+@media (max-width: 1200px) {
+
+  
+    .aboutheroimg{
+        height: 100%;
+        width: 70%;
+        flex-basis: 70%;
+    }
+    .aboutheroimg img {
+        width: 100%;
+    }
+    .icons{
+        bottom: 10px;
+        left: 25%;
+    }
+    .anotgrid{
+        direction: column-reverse;
+    }
+
+}
+@media (max-width: 550px) {
+    .icons{
+        bottom: 10px;
+        left: 25%;
+    }
+    .icons a {
+        padding: 5px;
+        color: black;
+        font-size: 15px;
+    }
+    .abouttext h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .aboutbutton{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+    .aboutbutton .downcvbtn{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}

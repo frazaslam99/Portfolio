@@ -1,0 +1,134 @@
+.portfoliocard{
+    box-shadow: 4px 4px 8px  #cbcbcb, -4px -4px 8px #e2d5d5;
+ 
+   
+}
+
+.img-section {
+    width: 100%;
+   
+}
+.active-modal {
+    overflow-y: hidden;
+}
+
+.modal-content {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    line-height: 1.4;
+    background: #f0f3f5;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 85%;
+    min-width: 60%;
+    height: 500px;
+    z-index: 9999;
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+ 
+}
+
+.modal,
+.overlay {
+    width: 100vw;
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 9999;
+}
+
+.overlay {
+    background-color: #ecf0f3;
+}
+
+.img-section-div {
+    width: 50%;
+    margin-top: 40px;
+}
+.text-section{
+    width: 50%;
+    margin-top: 40px;
+}
+.code-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 12px;
+    width: 190px;
+    height: 48px;
+    background-color: #A53DFF;
+    border: 1px solid #A53DFF;
+    border-radius: 4px;
+   
+
+    
+}
+.code-btn a{
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    width: 190px;
+    height: 48px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.code-btn:hover {
+    color: #A53DFF;
+    background-color: white;
+}
+.code-btn a:hover {
+    color: #A53DFF;
+} 
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 35px;
+}
+.text-section P{
+    color: #878e99;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.title,.categorytext{
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+
+
+@media (max-width: 900px) {
+    .modal-content{
+        flex-direction: column ;
+        height: auto;
+    } 
+    .modal,
+    .overlay {
+      overflow: scroll;
+    }
+    .img-section-div {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .text-section{
+        width: 100%;
+    }
+}

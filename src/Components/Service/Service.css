@@ -1,0 +1,38 @@
+.servicetext{
+  
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.servicecard{
+
+    box-shadow: 4px 4px 8px  #cbcbcb, -4px -4px 8px #ffffff;
+    border-radius: 10px;
+    width: 100% !important;
+    animation: pulse;
+}
+.servicecard h2{
+    font-size: 25px;
+}
+.servicecard:hover{
+    background: #ff014f;
+    animation: pulse;
+}
+
+.servicecard img{
+    height: 50px;
+}
+.servicecard p{
+    color: #87909D;
+    font-size: 16px;                                                             
+}
+
+.servicetext p {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    color: #838992;
+}

@@ -1,0 +1,47 @@
+ 
+.boxskill h3{
+    font-style: "poppins";
+    font-size: 20px;
+    
+}
+.boxcard h2{
+    color: #ff014f;
+}
+.boxcard:hover{
+    background-color: rgb(230, 210, 210);
+}
+.btn_rate{
+    background-color: #ff014f;
+    width: 120px;
+    line-height:2;
+    border-radius: 5px;
+    color: white;
+}
+/* .tabstyle:hover{
+    color: white ;
+    background-color: rgb(13, 19, 53);
+}  */
+.boxcard p{
+    color: #878e99;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.boxskill h3{
+    color: #ff014f;
+}
+
+
+/* .css-187mznn-MuiSlider-root{
+    color: #6b7681;
+} */
+.MuiTabs-flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.resumetabs{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}

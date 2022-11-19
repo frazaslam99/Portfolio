@@ -1,0 +1,61 @@
+.ullist {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center;
+    margin: 0 auto; */
+    justify-content: center;
+}
+
+.ullist li {
+    color: rgb(255, 251, 251);
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+   
+    text-transform: capitalize;
+    position: relative;
+}
+
+.ullist li::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 10px;
+    top: 90%;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s linear;
+
+}
+
+.ullist li:hover:before {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+.logof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 25px;
+    color: white;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .ullist{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    } 
+}
